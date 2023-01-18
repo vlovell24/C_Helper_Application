@@ -23,7 +23,9 @@ void mainMenu(){
 	printf("____________________________________________________\n\n");
 	printf("    <F> = Format Specifiers  <E> = Exit Program\n");
 	printf("    <L> = Libraries          <W> = GCC/GNU on Windows\n");
-    printf("Enter a character: ");
+	printf("    <S> = Escape Sequences   <V> = Virtual Box Setup\n");
+	printf("____________________________________________________\n");
+    printf("Make your selection: ");
     scanf("%c", &userInput);     
 
     
