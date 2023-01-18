@@ -1,0 +1,13 @@
+# COMPILED SOURCE CODE
+*.exe
+*.d
+*.o
+*.obj
+*.elf
+*.lib
+*.a
+*.dll
+*.out
+*.hex
+*.app
+*.cmd
