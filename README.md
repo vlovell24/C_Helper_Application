@@ -5,7 +5,7 @@ that I cannot really make a GUI the way I would prefer, unless I want to go the 
 I don't. Not yet. 
 
 This program is a command line C helper application.
-![](git_images/opening.png)
+<img src="git_images/opening.png" alt="amazing app" style="width: 300px;"/>
 
  Did you forget the format specifiers? Oh no:open_mouth:....this can
 help with that.
