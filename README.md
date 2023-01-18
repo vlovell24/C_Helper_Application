@@ -4,7 +4,10 @@ If I haven't made it abundantly clear in my previous repo's, I love making GUI's
 that I cannot really make a GUI the way I would prefer, unless I want to go the native Windows route. And,
 I don't. Not yet. 
 
-This program is a command line C helper application. Did you forget the format specifiers? Oh no:open_mouth:....this can
+This program is a command line C helper application.
+![](git_images/opening.png)
+
+ Did you forget the format specifiers? Oh no:open_mouth:....this can
 help with that.
 
 
