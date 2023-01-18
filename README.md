@@ -3,6 +3,7 @@
 If I haven't made it abundantly clear in my previous repo's, I love making GUI's. C is kind of gross in 
 that I cannot really make a GUI the way I would prefer, unless I want to go the native Windows route. And,
 I don't. Not yet. 
+Also, I have a cool command line. I almost used Comic Sans. If not for making my >> look weird, it would have happened!!!!
 
 This program is a command line C helper application.
 <p float="left">
