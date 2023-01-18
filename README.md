@@ -6,7 +6,7 @@ I don't. Not yet.
 
 This program is a command line C helper application.
 <p float="left">
-<img src="git_images/opening.png" alt="amazing app" style="width: 300px;"/>
+<img src="git_images/opening.png" alt="amazing app" style="width: 500px;"/>
 </p>
 
 
