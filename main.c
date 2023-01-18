@@ -24,17 +24,32 @@ void mainMenu(){
 	printf("    <F> = Format Specifiers  <E> = Exit Program\n");
 	printf("    <L> = Libraries          <W> = GCC/GNU on Windows\n");
 	printf("    <S> = Escape Sequences   <V> = Virtual Box Setup\n");
-	printf("____________________________________________________\n");
+	printf("____________________________________________________\n\n");
     printf("Make your selection: ");
     scanf("%c", &userInput);     
+	printf("____________________________________________________\n\n");
 
     
-    printf("You entered %c.\n",userInput);  
+     
 
 	switch(toupper(userInput)){
 		case 'F':
 			fflush(stdin);
 			formatSpecifiers();
+			break;
+		case 'E':
+			fflush(stdin);
+			printf("You selected to exit the program. Goodbye\n\n");
+			exit(0);
+			break;
+		case 'L':
+			fflush(stdin);
+			libraries();
+			break;
+		case 'W':
+			fflush(stdin);
+			system("gcc.txt");
+			mainMenu();
 			break;
 }
 
