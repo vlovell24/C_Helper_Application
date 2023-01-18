@@ -30,6 +30,8 @@ void mainMenu(){
 	printf("____________________________________________________\n\n");
 
 	//---------------------------SWITCH STATEMENT-----------------------
+	//this routes the application to the appropriate function based on the user input.
+	//stdin must be flushed each time or this will not work appropriately
 	switch(toupper(userInput)){
 		case 'F':
 			fflush(stdin);
@@ -67,8 +69,9 @@ void mainMenu(){
    
 } // end of mainMenu function
 
-
+//---------------------------------FORMAT SPECIFIERS FUNCTION-------------------------
 void formatSpecifiers(){
+	//prints out each of the specific format specifiers to the screen and then calls mainMenu()
 	printf(" %%c = Character\n");
 	printf(" %%d = Signed Integer\n");
 	printf(" %%e or %%E = Scientific Notation of Floats\n");
@@ -92,7 +95,28 @@ void formatSpecifiers(){
 	mainMenu();
 }
 
-
+//--------------------------------LIBRARIES FUNCTION----------------------------------
 void libraries(){
-	printf("Libraries Here");
-}
+	//takes a user input from a provided list and opens a web page to that library.
+	int userInput;
+	printf(" 1 = assert.h\n");
+	printf(" 2 = ctype.h\n");
+	printf(" 3 = locale.h\n");
+	printf(" 4 = math.h\n");
+	printf(" 5 = setjmp.h\n");
+	printf(" 6 = signal.h\n");
+	printf(" 7 = stdarg.h\n");
+	printf(" 8 = stdio.h\n");
+	printf(" 9 = stdlib.h\n");
+	printf(" 10 = string.h\n");
+	printf(" 11 = time.h\n");
+	printf(" 12 = errno.h\n");
+	printf(" 13 = float.h\n");
+	printf(" 14 = limits.h\n");
+	printf(" 15 = stddef.h\n");
+	printf(" 16 = **Back to Main Menu**\n");
+	printf("_____________________________\n\n");
+	printf(" Select a number to learn more about each library: ");
+	scanf("%d", &userInput);
+	printf("______________________________\n\n");
+}// end of libraries function
