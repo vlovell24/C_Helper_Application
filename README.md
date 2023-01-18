@@ -21,6 +21,16 @@ help with that.
 
 Did you forget what each of the standard library modules do? Oh no:open_mouth:......this can help you with that.
 
+<p float="left">
+<img src="git_images/assert.png" alt="amazing app" style="width: 500px;"/>
+</p>
+
+- Opens up the tutorialpoint webpage to view selected library. 
+
+<p float="left">
+<img src="git_images/c_online.png" alt="amazing app" style="width: 500px;"/>
+</p>
+
 
 Has it been 5 years since you installed gcc on your pc and now the jr is asking how to do it? Oh no:open_mouth:......this can
 help you with that.

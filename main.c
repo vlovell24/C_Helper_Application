@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include "muhfunctions.h"
+#include "libraryDefs.h"
 
 
 //--------------------FUNCTION PROTOTYPES--------------------------------
@@ -118,5 +119,13 @@ void libraries(){
 	printf("_____________________________\n\n");
 	printf(" Select a number to learn more about each library: ");
 	scanf("%d", &userInput);
-	printf("______________________________\n\n");
+	printf("____________________________________________________\n\n");
+
+	//switch statement start
+	switch(userInput){
+		case 1:
+			fflush(stdin);
+			assertH();
+			break;
+	}
 }// end of libraries function
