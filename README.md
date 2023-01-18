@@ -6,6 +6,7 @@ I don't. Not yet.
 Also, I have a cool command line. I almost used Comic Sans. If not for making my >> look weird, it would have happened!!!!
 
 This program is a command line C helper application.
+
 <p float="left">
 <img src="git_images/opening.png" alt="amazing app" style="width: 500px;"/>
 </p>
@@ -14,7 +15,9 @@ This program is a command line C helper application.
  Did you forget the format specifiers? Oh no:open_mouth:....this can
 help with that.
 
-
+<p float="left">
+<img src="git_images/format.png" alt="amazing app" style="width: 500px;"/>
+</p>
 
 Did you forget what each of the standard library modules do? Oh no:open_mouth:......this can help you with that.
 

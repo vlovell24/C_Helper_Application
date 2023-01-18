@@ -29,9 +29,7 @@ void mainMenu(){
     scanf("%c", &userInput);     
 	printf("____________________________________________________\n\n");
 
-    
-     
-
+	//---------------------------SWITCH STATEMENT-----------------------
 	switch(toupper(userInput)){
 		case 'F':
 			fflush(stdin);
@@ -51,14 +49,46 @@ void mainMenu(){
 			system("gcc.txt");
 			mainMenu();
 			break;
-}
+		case 'S':
+			fflush(stdin);
+			escapeSequences();
+			break;
+		case 'V':
+			fflush(stdin);
+			system("virtualbox.txt");
+			mainMenu();
+			break;
+		default:
+			printf("Invalid selection, please try again.");
+			mainMenu();
+			break;
+	} //end of switch
 
    
 } // end of mainMenu function
 
 
 void formatSpecifiers(){
-	printf("Format Specifiers Here\n");
+	printf(" %%c = Character\n");
+	printf(" %%d = Signed Integer\n");
+	printf(" %%e or %%E = Scientific Notation of Floats\n");
+	printf(" %%f = Float\n");
+	printf(" %%hi = Signed Integer\n");
+	printf(" %%hu = Unsigned Integer(short)\n");
+	printf(" %%i = Unsigned Integer\n");
+	printf(" %%l or %%ld or %%li = Long\n");
+	printf(" %%lf = Double\n");
+	printf(" %%Lf = Long Double\n");
+	printf(" %%lu = Unsigned Int or Unsigned Long\n");
+	printf(" %%lli or %%lld = Long long\n");
+	printf(" %%llu = Unsigned long long\n");
+	printf(" %%o = Octal Representation\n");
+	printf(" %%p = Pointer\n");
+	printf(" %%s = String\n");
+	printf(" %%u = Unsigned Integer\n");
+	printf(" %%x or %%X = Hexadecimal Representation\n");
+	printf(" %%n = Nothing\n");
+	printf(" %%%% = Percent\n");
 	mainMenu();
 }
 
