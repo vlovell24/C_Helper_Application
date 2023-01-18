@@ -5,7 +5,10 @@ that I cannot really make a GUI the way I would prefer, unless I want to go the 
 I don't. Not yet. 
 
 This program is a command line C helper application.
+<p float="left">
 <img src="git_images/opening.png" alt="amazing app" style="width: 300px;"/>
+</p>
+
 
  Did you forget the format specifiers? Oh no:open_mouth:....this can
 help with that.
