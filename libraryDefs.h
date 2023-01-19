@@ -69,3 +69,9 @@ void timeLib(){
 	printf("__________________________________________________\n\n");
 	libraries();
 }
+
+void errLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/errorno_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
