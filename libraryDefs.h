@@ -75,3 +75,21 @@ void errLib(){
 	printf("__________________________________________________\n\n");
 	libraries();
 }
+
+void floatLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/float_h.htm\n");
+	printf("___________________________________________________\n\n");
+	libraries();
+}
+
+void limitsLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/limits_h.htm\n");
+	printf("____________________________________________________\n\n");
+	libraries();
+}
+
+void stdLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/stdlib_h.htm\n");
+	printf("______________________________________________________\n\n");
+	libraries();
+}
