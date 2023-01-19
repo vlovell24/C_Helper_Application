@@ -63,3 +63,9 @@ void stringLib(){
 	printf("__________________________________________________\n\n");
 	libraries();
 }
+
+void timeLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/time_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
