@@ -21,3 +21,9 @@ void localeLib(){
 	printf("_________________________________________________\n\n");
 	libraries();
 }
+
+void mathLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/math_h.htm\n");
+	printf("_________________________________________________\n\n");
+	libraries();
+}
