@@ -15,3 +15,9 @@ void cType(){
 	printf("________________________________________________\n\n");
 	libraries();
 }
+
+void localeLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/locale_h.htm\n");
+	printf("_________________________________________________\n\n");
+	libraries();
+}
