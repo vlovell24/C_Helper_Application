@@ -9,3 +9,9 @@ void assertH(){
 	printf("________________________________________________\n\n");
 	libraries();
 }
+
+void cType(){
+	system("START https:www.tutorialspoint.com/c_standard_library/ctype_h.htm\n");
+	printf("________________________________________________\n\n");
+	libraries();
+}

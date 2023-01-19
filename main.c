@@ -127,5 +127,9 @@ void libraries(){
 			fflush(stdin);
 			assertH();
 			break;
+		case 2:
+			fflush(stdin);
+			cType();
+			break;
 	}
 }// end of libraries function
