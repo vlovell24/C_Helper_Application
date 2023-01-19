@@ -27,3 +27,27 @@ void mathLib(){
 	printf("_________________________________________________\n\n");
 	libraries();
 }
+
+void setLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/setjmp_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
+
+void signalLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/signal_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
+
+void dargLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/stdarg_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
+
+void stLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/stdio_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
