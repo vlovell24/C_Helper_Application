@@ -51,3 +51,15 @@ void stLib(){
 	printf("__________________________________________________\n\n");
 	libraries();
 }
+
+void stdIo(){
+	system("START https:www.tutorialspoint.com/c_standard_library/stdio_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
+
+void stringLib(){
+	system("START https:www.tutorialspoint.com/c_standard_library/string_h.htm\n");
+	printf("__________________________________________________\n\n");
+	libraries();
+}
