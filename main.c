@@ -131,5 +131,9 @@ void libraries(){
 			fflush(stdin);
 			cType();
 			break;
+		case 3:
+			fflush(stdin);
+			localeLib();
+			break;
 	}
 }// end of libraries function
