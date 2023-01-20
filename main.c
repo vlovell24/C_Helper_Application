@@ -139,5 +139,17 @@ void libraries(){
 			fflush(stdin);
 			mathLib();
 			break;
+		case 5:
+			fflush(stdin);
+			setLib();
+			break;
+		case 6:
+			fflush(stdin);
+			signalLib();
+			break;
+		case 7:
+			fflush(stdin);
+			dargLib();
+			break;
 	}
 }// end of libraries function
