@@ -159,5 +159,21 @@ void libraries(){
 			fflush(stdin);
 			stLib();
 			break;
+		case 10:
+			fflush(stdin);
+			stringLib();
+			break;
+		case 11:
+			fflush(stdin);
+			timeLib();
+			break;
+		case 12:
+			fflush(stdin);
+			errLib();
+			break;
+		case 13:
+			fflush(stdin);
+			floatLib();
+			break;
 	}
 }// end of libraries function
