@@ -135,5 +135,9 @@ void libraries(){
 			fflush(stdin);
 			localeLib();
 			break;
+		case 4:
+			fflush(stdin);
+			mathLib();
+			break;
 	}
 }// end of libraries function
