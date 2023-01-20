@@ -175,5 +175,21 @@ void libraries(){
 			fflush(stdin);
 			floatLib();
 			break;
+		case 14:
+			fflush(stdin);
+			limitsLib();
+			break;
+		case 15:
+			fflush(stdin);
+			stdLib();
+			break;
+		case 16:
+			fflush(stdin);
+			mainMenu();
+			break;
+		default:
+			fflush(stdin);
+			printf("Invalid selection, please try again.\n");
+			libraries();
 	}
 }// end of libraries function
