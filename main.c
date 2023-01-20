@@ -151,5 +151,13 @@ void libraries(){
 			fflush(stdin);
 			dargLib();
 			break;
+		case 8:
+			fflush(stdin);
+			stdIo();
+			break;
+		case 9:
+			fflush(stdin);
+			stLib();
+			break;
 	}
 }// end of libraries function
