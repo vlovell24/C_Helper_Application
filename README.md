@@ -35,6 +35,10 @@ Did you forget what each of the standard library modules do? Oh no:open_mouth:..
 Has it been 5 years since you installed gcc on your pc and now the jr is asking how to do it? Oh no:open_mouth:......this can
 help you with that.
 
+<p float="left">
+<img src="git_images/gcc_help.png" alt="amazing app" style="width: 500px;"/>
+</p>
+
 
 Did you set up your make file in like 1995 and then use the same one forever, but then your pc finally exploded and
 now you forgot how to create your make file? Oh no:open_mouth:......this can help with that.
