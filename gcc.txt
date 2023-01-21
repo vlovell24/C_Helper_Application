@@ -1,0 +1,64 @@
+						-- HOW TO RUN AND INSTALL GCC IN WINDOWS --
+
+In this file: Section 1 -> INSTALLATION
+			  Section 2 -> COMPILING FILES
+
+										**** SECTION ONE ****
+
+Go to https://nuwen.net/mingw.html
+Click on C++ at the top of the page (The link is MinGW Distro)
+In the Download Section below, click on "mingw-18.0.exe"
+
+Install this file in your C: home directory (meaning make sure it goes there when you are installing it.)
+Once installed, we need to set the Path variable.
+On your PC, click the windows key + x
+In the menu that pops up, click on system
+Click on Advanced System Settings (it's on the far right on my PC)
+In the popup click Environmental Variables
+In the popup, look for the System Variables section. Scroll down to where it says Path.
+Click on Path. Then click Edit.
+In the new popup, tyhpe the following: C:\MinGW\bin (you can also copy/paste your bin path here)
+Click ok
+Ok out of all the popups
+Restart your terminal
+Type gcc --version
+This should say something like: gcc (GCC) 11.2.0
+BOOM DONE!!!!
+
+**A note on path variables. Many programs will set the path variable for you, but many don't. If you
+type nameofprogram --version in your terminal, and it cannot find the program, the path variable is 
+probably not set. Find the programs .bat or .exe file and copy the path to that file. Then open the 
+environmental variables (see above) and smack that path into the path variable section. You will notice 
+that there are system and user variables. System applies to anyone using the PC. User applies to the 
+user logged into the PC. Lets say your PC has several user profiles. Thank you for watching my TED
+Talk**
+
+									**** SECTION TWO ****
+
+USING GCC IN THE COMMAND LINE
+
+create a directory to save your ca nd h files in.
+cd into that new directoryI use notepad++ for writing quick files, but you can use vim or notepad, or whatever.
+		**To use notepad++ type:
+		start notepad++ nameoffile.c (you can do the same with notepad.)
+
+		**If using VIM type:
+		vim nameoffile.c
+
+Type all your words n stuff. Then hit Control + S to save the file.
+
+Go back to your terminal and type:
+gcc nameoffile.c -o nameoffile
+
+Make sure you use the -o nameoffile or the compiler will name your file .a (this is annoying)
+Now your file is compiled and you can type:
+nameoffile.exe or just nameoffile
+
+This will run the program. If you had errors, the compiler will yell at you and tell you to fix them.
+
+Creating a .h file is exactly the same. Create it, compile it with the -o nameoffile addition and then
+compile the corresponding .c file that links to it. Then run the program.
+
+YAAAAAAAAAAY...............YOU DID IT!!!!!
+
+
