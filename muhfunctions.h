@@ -3,10 +3,11 @@
 void mainMenu();
 void escapeSequences() {
 	printf("\n***********************ESCAPE SEQUENCES********************\n");
-	printf("______________________________________________________________\n");
+	printf("______________________________________________________________\n\n");
 	printf(" \\t -> Horizontal Tab\n");
 	printf(" \\n -> New Line\n");
-	printf(" \\' -> Single Quote");
+	printf(" \\' -> Single Quote\n");
+	printf(" \\\" -> Double Quote\n");
 
 	mainMenu();
 }
