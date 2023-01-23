@@ -8,7 +8,8 @@ void escapeSequences() {
 	printf(" \\n -> New Line\n");
 	printf(" \\' -> Single Quote\n");
 	printf(" \\\" -> Double Quote\n");
-	printf(" \\x43 -> ASCII Hex");
+	printf(" \\x43 -> ASCII Hex\n");
+	printf(" \\ -> Backslash\n");
 
 	mainMenu();
 }
