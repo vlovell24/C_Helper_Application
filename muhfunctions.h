@@ -10,6 +10,7 @@ void escapeSequences() {
 	printf(" \\\" -> Double Quote\n");
 	printf(" \\x43 -> ASCII Hex\n");
 	printf(" \\ -> Backslash\n");
+	printf(" \\o -> Null");
 
 	mainMenu();
 }
