@@ -16,19 +16,19 @@ This program is a command line C helper application.
 help with that.
 
 <p float="left">
-<img src="git_images/format.png" alt="amazing app" style="width: 500px;"/>
+<img src="git_images/format.png" alt="be more specific please" style="width: 500px;"/>
 </p>
 
 Did you forget what each of the standard library modules do? Oh no:open_mouth:......this can help you with that.
 
 <p float="left">
-<img src="git_images/assert.png" alt="amazing app" style="width: 500px;"/>
+<img src="git_images/assert.png" alt="standard library" style="width: 500px;"/>
 </p>
 
 - Opens up the tutorialpoint webpage to view selected library. 
 
 <p float="left">
-<img src="git_images/c_online.png" alt="amazing app" style="width: 500px;"/>
+<img src="git_images/c_online.png" alt="online c library" style="width: 500px;"/>
 </p>
 
 
@@ -36,7 +36,7 @@ Has it been 5 years since you installed gcc on your pc and now the jr is asking 
 help you with that.
 
 <p float="left">
-<img src="git_images/gcc_help.png" alt="amazing app" style="width: 500px;"/>
+<img src="git_images/gcc_help.png" alt="gcc help me" style="width: 500px;"/>
 </p>
 
 
@@ -51,6 +51,10 @@ Oh no:open_mouth:......this can help with that.
 
 Did you forget all the different escape sequences because you only use the Hex one like once every decade? Oh no:open_mouth:.....
 this can help with that.
+
+<p float="left">
+<img src="git_images/escape_sequences.png" alt="go on and git" style="width: 500px;"/>
+</p>
 
 
 ## :interrobang: But Why Val? Why did you do this thing?
