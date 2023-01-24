@@ -1,0 +1,13 @@
+***************************INSTALLING VIRTUAL BOX ON YOUR MACHINE****************************************
+
+So, you just want an Ubuntu environment on your windows machine, without partitioning off space, and blah blah. Well here you go.
+
+
+Literally just go here: https://www.youtube.com/watch?v=wX75Z-4MEoM
+
+Watch that. Seriously, do it. He is the best of the best, and explains everything in detail far better than
+I could. 
+
+Virtual Box Link: https://www.virtualbox.org/wiki/Downloads
+Ubuntu Link: https://ubuntu.com/#download
+
