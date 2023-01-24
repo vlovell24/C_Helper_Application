@@ -40,10 +40,6 @@ help you with that.
 </p>
 
 
-Did you set up your make file in like 1995 and then use the same one forever, but then your pc finally exploded and
-now you forgot how to create your make file? Oh no:open_mouth:......this can help with that.
-
-
 Did Jerry with his fancy macbook tell you that you weren't a 'real' developer because you don't use Linux? Did you 
 want to maybe secretly set up a virtual environment so that you could see if Linux was actually worth knowing?
 Oh no:open_mouth:......this can help with that.
