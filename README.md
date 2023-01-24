@@ -44,6 +44,10 @@ Did Jerry with his fancy macbook tell you that you weren't a 'real' developer be
 want to maybe secretly set up a virtual environment so that you could see if Linux was actually worth knowing?
 Oh no:open_mouth:......this can help with that.
 
+<p float="left">
+<img src="git_images/virtualBox.png" alt="virtual box" style="width: 500px;"/>
+</p>
+
 
 Did you forget all the different escape sequences because you only use the Hex one like once every decade? Oh no:open_mouth:.....
 this can help with that.
